@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Muzika</string>
+    <string name="tab_text_1">Tracks</string>
+    <string name="tab_text_2">Artists</string>
+    <string name="tab_text_3">Playlists</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_credit">App Credit</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="song_title">Song</string>
+    <string name="song_artist">Artist</string>
+    <string name="Shuffle">Shuffle</string>
+    <string name="welcome">MUZIKA!!!</string>
+    <string name="End">End</string>
+    <string name="About">About</string>
+    <string name="Play">Play</string>
+    <string name="Pause">Pause</string>
+    <string name="current_time">0:00</string>
+    <string name="stop_time">4:00</string>
+    <string name="version">Version 1.0</string>
+    <string name="credit">Developed by Ikechukwu Ezugworie</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+</resources>
