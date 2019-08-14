@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#488FCD</color>
+    <color name="colorPrimaryDark">#4086CD</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="text">#5A5D56</color>
+    <color name="text_thick">#393b34</color>
+    <color name="white">#ffffff</color>
+    <color name="now_playing">#777</color>
+    <color name="off_white">#CCC</color>
+    <color name="thicker">#222</color>
+</resources>
