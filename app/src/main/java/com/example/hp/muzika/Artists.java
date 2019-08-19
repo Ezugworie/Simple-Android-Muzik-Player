@@ -130,7 +130,7 @@ public class Artists extends Fragment {
                 // int genreColumn = musicCursor.getColumnIndex(MediaStore.Audio.Media.ALBUM);
 
                 //add song to the list
-                do {
+                while (musicCursor.moveToNext()) {
                     long thisId = musicCursor.getLong(idColumn);
                     String thisTitle = musicCursor.getString(titleColumn);
                     String thisArtist = musicCursor.getString(artistColumn);
@@ -139,7 +139,7 @@ public class Artists extends Fragment {
 
                     songList.add(new Song(thisId, thisArtist, thisTitle));
                 }
-                while (musicCursor.moveToNext());
+              ;
 
             }
         } else {
