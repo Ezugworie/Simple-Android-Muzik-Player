@@ -1,4 +1,4 @@
-package com.example.hp.muzika;
+package com.isoft.application;
 
 public class Song {
     //song variables the holds the song properties

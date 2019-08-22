@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity$PlaceholderFragment"
+    tools:context="com.isoft.application.MainActivity$PlaceholderFragment"
     android:background="@color/now_playing">
 
 
@@ -83,23 +83,10 @@
         android:paddingBottom="@dimen/fab_margin">
 
         <ImageView
-            android:id="@+id/btnPreviousSong"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/previous"
-            android:layout_marginEnd="@dimen/fab_margin"/>
-        <ImageView
             android:id="@+id/btnPlay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/pause"/>
-        <ImageView
-            android:layout_marginStart="@dimen/fab_margin"
-            android:id="@+id/btnNextSong"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/next"
-            android:layout_gravity="end"/>
     </LinearLayout>
 
 </RelativeLayout>

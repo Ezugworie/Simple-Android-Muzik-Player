@@ -1,4 +1,4 @@
-package com.example.hp.muzika;
+package com.isoft.appication;
 
 import org.junit.Test;
 

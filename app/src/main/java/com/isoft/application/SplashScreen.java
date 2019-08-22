@@ -1,4 +1,4 @@
-package com.example.hp.muzika;
+package com.isoft.application;
 
 import android.Manifest;
 import android.animation.ObjectAnimator;
@@ -10,6 +10,8 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.isoft.application.R;
 
 import java.util.ArrayList;
 import java.util.List;

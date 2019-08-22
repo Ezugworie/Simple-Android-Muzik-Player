@@ -1,4 +1,4 @@
-package com.example.hp.muzika;
+package com.isoft.application;
 
 import android.Manifest;
 import android.content.ContentResolver;
@@ -18,6 +18,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
+
+import com.isoft.application.R;
 
 import java.util.ArrayList;
 

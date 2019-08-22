@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hp.muzika">
+    package="com.isoft.application">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SplashScreen"
+            android:name="com.isoft.application.SplashScreen"
             android:label="@string/app_name"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.isoft.application.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
@@ -36,18 +36,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NowPlaying"
+            android:name="com.isoft.application.NowPlaying"
             android:screenOrientation="portrait">
 
         </activity>
         <activity
-            android:name=".About"
+            android:name="com.isoft.application.About"
             android:label="@string/About"
             android:theme="@style/AppTheme.NoActionBar"></activity>
 
 
         <service
-            android:name=".MyService"
+            android:name="com.isoft.application.MyService"
             android:exported="false"></service>
     </application>
 

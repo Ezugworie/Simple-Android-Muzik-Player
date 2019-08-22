@@ -1,4 +1,4 @@
-package com.example.hp.muzika;
+package com.isoft.application;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -17,6 +17,8 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
+
+import com.isoft.application.R;
 
 import java.util.ArrayList;
 
@@ -81,8 +83,8 @@ public class NowPlaying extends AppCompatActivity {
         final TextView currentTime = (TextView) findViewById(R.id.current_time);
         TextView stopTime = (TextView) findViewById(R.id.stop_time);
         playButton = (ImageView) findViewById(R.id.btnPlay);
-        previousSongButtton = (ImageView) findViewById(R.id.btnPreviousSong);
-        nextSongButton = (ImageView) findViewById(R.id.btnNextSong);
+//        previousSongButtton = (ImageView) findViewById(R.id.btnPreviousSong);
+//        nextSongButton = (ImageView) findViewById(R.id.btnNextSong);
 
         songTitle.setText(songTitleWithoutExtension);
         songArtist.setText(artistNamePath);
@@ -139,20 +141,20 @@ public class NowPlaying extends AppCompatActivity {
         });
 
 
-        //handle the next button
-        nextSongButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                //first convert the @currentSongIndex from String object to primitive integer
-                //long currentSongIndexToInteger = Integer.parseInt(currentSongIndex);
-                int songListSizeToInteger = Integer.parseInt(songListSize);
-                //TODO convert currentSongIndex and songListSize from String Integer
-                if (currentSongIndex < (songListSizeToInteger -1 )){
-
-                }
-            }
-        });
+        /**TODO ***handle the next button*/
+//        nextSongButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//                //first convert the @currentSongIndex from String object to primitive integer
+//                //long currentSongIndexToInteger = Integer.parseInt(currentSongIndex);
+//                int songListSizeToInteger = Integer.parseInt(songListSize);
+//                //TODO convert currentSongIndex and songListSize from String Integer
+//                if (currentSongIndex < (songListSizeToInteger -1 )){
+//
+//                }
+//            }
+//        });
 
         //set the song title
         setTitle(songTitleWithoutExtension);
