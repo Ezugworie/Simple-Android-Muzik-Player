@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Muzika1.1</string>
+    <string name="app_name">Muzika</string>
     <string name="tab_text_1">Tracks</string>
     <string name="tab_text_2">Artists</string>
     <string name="tab_text_3">Playlists</string>
@@ -16,8 +16,8 @@
     <string name="Pause">Pause</string>
     <string name="current_time">0:00</string>
     <string name="stop_time">4:00</string>
-    <string name="version">Version 1.1</string>
-    <string name="credit">Developed by Ikechukwu Ezugworie</string>
+    <string name="version">Version 1.0.0</string>
+    <string name="credit">Author:   Ikechukwu Ezugworie</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 </resources>

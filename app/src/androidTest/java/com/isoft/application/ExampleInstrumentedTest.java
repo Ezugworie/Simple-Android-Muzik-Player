@@ -1,4 +1,4 @@
-package com.example.hp.muzika;
+package com.isoft.application;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
