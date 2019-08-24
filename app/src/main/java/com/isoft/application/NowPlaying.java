@@ -160,7 +160,7 @@ public class NowPlaying extends AppCompatActivity {
         setTitle(songTitleWithoutExtension);
     }
 
-//    public void playSong(int songIndex){
+//    public void playSong(int songIsuper.onBackPressed();ndex){
 //        //play song
 //        try{
 //            //get the current songIndex in integer
@@ -186,7 +186,18 @@ public class NowPlaying extends AppCompatActivity {
 
     }
 
-//    @Override
+    @Override
+    public void onBackPressed() {
+
+        super.onBackPressed();
+        mMediaPlayer.stop();
+        finish();
+    }
+
+
+
+
+    //    @Override
 //    protected void onStop() {
 //        super.onStop();
 //        if (mMediaPlayer.isPlaying()) {
